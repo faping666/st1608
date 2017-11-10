@@ -1,0 +1,14 @@
+myapp.controller('contactCtrl',function($scope,$location,$state,$stateParams){
+	$scope.conlist = [];
+	$scope.typelist = [];
+	$scope.con = {
+	cid:0,
+	ctid:0,
+	name:'',
+	sex:'',
+	company:'',
+	homeTelNum:'',
+	officeTelNum:''
+	};
+	var url = 
+})
