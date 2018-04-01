@@ -25,9 +25,5 @@ public class Cardtype {
 	public void setCtname(String ctname) {
 		this.ctname = ctname;
 	}
-	@Override
-	public String toString() {
-		return "Cardtype [ctid=" + ctid + ", ctname=" + ctname + "]";
-	}
 	
 }
